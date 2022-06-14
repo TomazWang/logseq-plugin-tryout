@@ -1,0 +1,22 @@
+{
+  "name": "logseq-plugin-tryout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomazWang/logseq-plugin-tryout.git"
+  },
+  "author": "Tomaz Wang <mail@tomaz.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TomazWang/logseq-plugin-tryout/issues"
+  },
+  "homepage": "https://github.com/TomazWang/logseq-plugin-tryout#readme",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  }
+}
