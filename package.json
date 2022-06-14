@@ -1,22 +1,43 @@
 {
   "name": "logseq-plugin-tryout",
   "version": "1.0.0",
+  "author": "Tomaz Wang <mail@tomaz.dev>",
   "description": "",
-  "main": "index.js",
+  "logseq": {
+    "id": "logseq-plugin-tryout",
+    "title": "Plugin Tryout"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "main": "dist/index.html",
+  "targets": {
+    "main": false
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TomazWang/logseq-plugin-tryout.git"
   },
-  "author": "Tomaz Wang <mail@tomaz.dev>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TomazWang/logseq-plugin-tryout/issues"
   },
   "homepage": "https://github.com/TomazWang/logseq-plugin-tryout#readme",
+  "dependencies": {
+    "@logseq/libs": "^0.0.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
   "devDependencies": {
+    "@types/node": "^17.0.42",
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "parcel": "^2.6.0",
+    "tsc": "^2.0.4",
     "typescript": "^4.7.3"
+  },
+  "logseq": {
+    "id": "_c595zetoz"
   }
 }
